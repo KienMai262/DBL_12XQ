@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_35
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "T\xF4i"
+    Lines:
+    - "(\xC1nh m\u1EAFt ki\xEAn \u0111\u1ECBnh, nh\xECn con trai treo tr\xEAn s\xE0o)
+      S\u01A1n h\xE0 \u0111ang l\xE2m nguy, m\u1ED9t quy\u1EBFt \u0111\u1ECBnh l\xFAc
+      n\xE0y s\u1EBD \u0111\u1ECBnh v\u1EADn m\u1EC7nh ng\xE0n \u0111\u1EDDi\u2026"
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices:
+  - choiceText: "Gi\u1EEF v\u1EEFng ch\xED l\u1EDBn"
+    nextConversation: {fileID: 11400000, guid: b1f56252cd1d69349b92a362b0dd65b2, type: 2}
+    parameterChange:
+      UT: 2
+      CD: 0
+      LD: -1
+      SK: 2
+      ML: 0
+      NG: 0
+      TX: 0
+      QL: 0
+      TB: 0
+      V: 0
+      L: 0
+  - choiceText: "M\u1EC1m n\u1EAFn r\u1EAFn bu\xF4ng"
+    nextConversation: {fileID: 11400000, guid: 2e7f9b4ba496c7e45962c6846b82746f, type: 2}
+    parameterChange:
+      UT: -2
+      CD: 0
+      LD: 1
+      SK: -1
+      ML: 0
+      NG: 0
+      TX: 0
+      QL: 0
+      TB: 0
+      V: -80
+      L: -30
+  - choiceText: "Gi\u1EA3 h\xE0ng, b\u1EA5t ng\u1EDD t\u1EADp k\xEDch"
+    nextConversation: {fileID: 11400000, guid: 555353e4544f10a48b7351fdef20d310, type: 2}
+    parameterChange:
+      UT: 0
+      CD: 0
+      LD: 1
+      SK: 3
+      ML: 0
+      NG: 0
+      TX: 0
+      QL: -400
+      TB: 1
+      V: 0
+      L: 0
+  nextConversation: {fileID: 0}
+  isCanonical: 0
+  canonical: 

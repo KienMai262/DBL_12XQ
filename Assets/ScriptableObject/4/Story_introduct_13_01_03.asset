@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_13_01_03
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "\u0110\xE0m Th\u1ECB"
+    Lines:
+    - "V\xE0i gi\xE2y sau, \u0111\u1EA7u \u0110inh Ho\xE0n nh\xF4 l\xEAn c\xE1ch
+      ch\u1ED7 c\u0169 m\u1ED9t \u0111o\u1EA1n xa, c\u1EADu b\xE9 t\u1EF1 b\xE1m
+      \u0111\u01B0\u1EE3c v\xE0o m\u1ED9t g\u1ED1c c\xE2y m\u1EE5c ven b\u1EDD, r\u1ED3i
+      g\u1EAFng s\u1EE9c tr\xE8o l\xEAn. Qu\u1EA7n \xE1o l\u1EA5m lem b\xF9n \u0111\u1EA5t,
+      c\u1EADu th\u1EDF d\u1ED1c nh\u01B0ng \xE1nh m\u1EAFt v\u1EABn ki\xEAn ngh\u1ECB."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 8a7f5387061818a4bac188f8d9df2f6d, type: 2}
+  isCanonical: 0
+  canonical: 

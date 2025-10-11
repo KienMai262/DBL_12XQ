@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_30
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "T\xF4i"
+    Lines:
+    - "M\xE2y \u0111en \xF9n \xF9n k\xE9o t\u1EDBi, ti\u1EBFng t\xF9 v\xE0 r\u1EC1n
+      vang kh\u1EAFp n\xFAi s\xF4ng. C\u1EDD \u0111en c\u1EE7a qu\xE2n Ng\xF4 d\u1EADp
+      d\u1EDDn nh\u01B0 b\xF3ng t\u1EED th\u1EA7n, ph\u1EE7 k\xEDn ch\xE2n th\xE0nh
+      Hoa L\u01B0. Tr\xEAn v\u1ECDng l\xE2u, m\u1ED9t c\xE2y s\xE0o tre v\u01B0\u01A1n
+      th\u1EB3ng tr\u1EDDi cao. B\u1ECB tr\xF3i treo tr\xEAn \u0111\xF3 l\xE0 \u0110inh
+      Li\u1EC5n \u2013 ch\xE0ng thi\u1EBFu ni\xEAn m\u1EDBi \u0111\u1ED9 m\u01B0\u1EDDi
+      m\u1EA5y tu\u1ED5i \u2013 ph\u01A1i m\xECnh gi\u1EEFa gi\xF3 b\u1EE5i, tr\u1EDF
+      th\xE0nh con tin tr\u01B0\u1EDBc mu\xF4n con m\u1EAFt."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: b75ac9fff7c8e9344873c8effe8d5713, type: 2}
+  isCanonical: 0
+  canonical: 

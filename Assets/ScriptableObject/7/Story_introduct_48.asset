@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_48
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "Tr\u1EA7n L\xE3m"
+    Lines:
+    - "(G\u1EADt \u0111\u1EA7u nh\u1EB9, gi\u1ECDng tr\u1EA7m) \u0110inh Ho\xE0n
+      l\xE0 ng\u01B0\u1EDDi c\xF3 gan. Nh\u01B0ng gan m\xE0 kh\xF4ng bi\u1EBFt \u0111i\u1EC1u,
+      s\u1EBD g\u1EB7p h\u1ECDa. Truy\u1EC1n l\u1EC7nh: thuy\u1EC1n chi\u1EBFn ti\u1EBFn
+      t\u1EEB t\u1EEB, \u0111\u1EEBng v\u1ED9i. Ta mu\u1ED1n xem h\u1EAFn \u0111\u1ECBnh
+      l\xE0m g\xEC."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 0}
+  isCanonical: 0
+  canonical: 

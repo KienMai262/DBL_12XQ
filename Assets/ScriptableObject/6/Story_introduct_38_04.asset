@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_38_04
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "T\u01B0\u1EDBng Ng\xF4"
+    Lines:
+    - "S\u01B0\u01A1ng s\u1EDBm ph\u1EE7 tr\u1EAFng chi\u1EBFn \u0111\u1ECBa, im
+      l\xECm \u0111\u1EBFn ngh\u1EB9t th\u1EDF. T\u1EEBng ng\u1ECDn c\u1EDD \u0111en
+      c\u1EE7a qu\xE2n Ng\xF4 ph\u1EA5p ph\u1EDBi ngo\xE0i c\u1ED5ng, ti\u1EBFng
+      gi\xE1p tr\u1EE5 va v\xE0o nhau chan ch\xE1t, h\u1EA3 h\xEA nh\u01B0 \u0111\xE3
+      n\u1EAFm ch\u1EAFc ph\u1EA7n th\u1EAFng. Tr\xEAn t\u01B0\u1EDDng th\xE0nh,
+      binh s\u0129 Hoa L\u01B0 n\xEDn l\u1EB7ng, ch\u1EC9 c\xF2n nghe nh\u1ECBp th\u1EDF
+      d\u1ED3n d\u1EADp trong b\xF3ng t\u1ED1i. C\xE1nh c\u1ED5ng g\u1ED7 kh\u1ED5ng
+      l\u1ED3 r\xEDt k\u1EBDo k\u1EB9t, t\u1EEBng t\u1EA5c m\u1ED9t nh\u01B0 m\u1EDF
+      ra s\u1ED1 ph\u1EADn."
+    - "C\u1ED5ng th\xE0nh kh\u1EBD m\u1EDF, qu\xE2n Ng\xF4 h\xF2 reo tr\xE0n v\xE0o
+      nh\u01B0 th\xE1c. Nh\u01B0ng ngay khi v\u1EEBa v\u01B0\u1EE3t qua, ti\u1EBFng
+      t\xF9 v\xE0 ch\u1EA5n \u0111\u1ED9ng n\xFAi r\u1EEBng. T\xEAn l\u1EEDa v\xFAt
+      s\xE1ng, k\u1EF5 binh lao xu\u1ED1ng t\u1EEB v\xE1ch \u0111\xE1. \u0110inh
+      \u0110i\u1EC1n ph\xF3ng ng\u1EF1a, ch\xE9m \u0111\u1EE9t d\xE2y tr\xF3i, b\u1EBF
+      Li\u1EC5n r\u1EDDi kh\u1ECFi s\xE0o tre. Gi\u1EEFa kh\xF3i l\u1EEDa, \xF4ng
+      qu\u1EF3 g\u1ED1i d\xE2ng Li\u1EC5n, m\xE1u v\xE0 b\u1EE5i v\u1EA5y \u0111\u1EA7y
+      gi\xE1p:"
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 489da35270ce6524ea92493b2d026dea, type: 2}
+  isCanonical: 0
+  canonical: 

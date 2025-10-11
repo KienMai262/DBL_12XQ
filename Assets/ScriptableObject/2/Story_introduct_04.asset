@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_04
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "T\xF4i"
+    Lines:
+    - "Ta t\u1EEBng nghe chuy\u1EC7n c\xE1c b\u1EADc ti\u1EC1n nh\xE2n. Tr\xEAn s\xF4ng
+      B\u1EA1ch \u0110\u1EB1ng, Ng\xF4 V\u01B0\u01A1ng \u0111\xE1nh tan gi\u1EB7c
+      ph\u01B0\u01A1ng B\u1EAFc, m\u1EDF ra k\u1EF7 nguy\xEAn \u0111\u1ED9c l\u1EADp.
+      M\xE1u c\u1EE7a ng\u01B0\u1EDDi x\u01B0a h\xF2a c\xF9ng s\xF3ng n\u01B0\u1EDBc,
+      kh\u1EAFc th\xE0nh thi\xEAn c\u1ED5."
+    - "Nh\u01B0ng r\u1ED3i Ng\xF4 V\u01B0\u01A1ng c\u0169ng qua \u0111\u1EDDi\u2026
+      tri\u1EC1u Ng\xF4 suy y\u1EBFu. \u0110\u1EA5t n\u01B0\u1EDBc chia r\u1EBD,
+      h\xE0o tr\u01B0\u1EDFng n\u1ED5i lo\u1EA1n. Gi\u1EEFa nh\u1EEFng bi\u1EBFn
+      \u0111\u1ED9ng \u1EA5y, ta ch\u1EC9 l\xE0 m\u1ED9t \u0111\u1EE9a tr\u1EBB v\xF9ng
+      Hoa L\u01B0 \u2013 ch\u01B0a g\u01B0\u01A1m, ch\u01B0a gi\xE1p\u2026 ch\u1EC9
+      c\xF3 c\xE0nh lau tr\xEAn tay."
+    - "Th\u1EBF nh\u01B0ng, khi ng\u1ECDn c\u1EDD lau tung bay trong gi\xF3, trong
+      l\xF2ng ta b\u1EEBng l\xEAn m\u1ED9t c\u1EA3m gi\xE1c l\u1EA1\u2026 Nh\u01B0
+      th\u1EC3 v\u1EADn m\u1EC7nh m\xE1ch b\u1EA3o: m\u1ED9t ng\xE0y n\xE0o \u0111\xF3,
+      ch\xEDnh ta s\u1EBD \u0111\u1EE9ng ra d\u1EB9p lo\u1EA1n, th\u1ED1ng nh\u1EA5t
+      giang s\u01A1n."
+    images:
+    - {fileID: 21300000, guid: 1a29d1b39ef910741a52556e2bff74e1, type: 3}
+    - {fileID: 21300000, guid: fad8a44a8c600fc4ca6c5858ede0f71b, type: 3}
+    - {fileID: 21300000, guid: fad8a44a8c600fc4ca6c5858ede0f71b, type: 3}
+  choices: []
+  nextConversation: {fileID: 0}
+  isCanonical: 0
+  canonical: 

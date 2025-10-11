@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_08_03
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "M\u1ED9t \u0111\u1EE9a tr\u1EBB kh\xE1c"
+    Lines:
+    - "Khi hai b\xEAn \u0111ang g\u01B0\u1EDDm g\u01B0\u1EDDm chu\u1EA9n b\u1ECB
+      lao v\xE0o nhau, \u0110inh Ho\xE0n b\u1EA5t ng\u1EDD gi\u01A1 tay ra hi\u1EC7u
+      d\u1EEBng l\u1EA1i. C\u1EADu kh\xF4ng nh\xECn \u0110inh \u0110i\u1EC1n nh\u01B0
+      m\u1ED9t k\u1EBB th\xF9, m\xE0 b\u01B0\u1EDBc l\xEAn ph\xEDa tr\u01B0\u1EDBc
+      v\u1EDBi v\u1EBB th\xE2n thi\u1EC7n. C\u1EADu ch\u1EC9 tay v\u1EC1 ph\xEDa
+      ng\u1ECDn \u0111\u1ED3i xa xa, n\u01A1i \u0111\xE1m tr\u1EBB l\xE0ng kh\xE1c
+      \u0111ang t\u1EE5 t\u1EADp, r\u1ED3i l\u1EA1i ch\u1EC9 v\xE0o hai nh\xF3m qu\xE2n
+      c\u1EE7a m\xECnh v\xE0 \u0110inh \u0110i\u1EC1n. \xC1nh m\u1EAFt ch\xE2n th\xE0nh
+      c\u1EE7a c\u1EADu khi\u1EBFn s\u1EF1 c\u0103ng th\u1EB3ng d\u1EA7n tan bi\u1EBFn."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 5cc8330a00f18224e9a74b36e5b2a5c6, type: 2}
+  isCanonical: 0
+  canonical: 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_19
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "Ph\u1EA1m B\u1EA1ch H\u1ED5"
+    Lines:
+    - "(S\u1EE9 gi\u1EA3, m\u1EC9m c\u01B0\u1EDDi) Ng\xE0i c\xF3 th\xE0nh hi\u1EC3m,
+      ta c\xF3 ch\u1EE3 s\xF4ng \u0110\u1EB1ng, thuy\u1EC1n b\xE8 ch\u1EDF mu\u1ED1i
+      g\u1EA1o b\u1ED1n ph\u01B0\u01A1ng. N\u1EBFu \u0111\u1ED3ng t\xE2m hi\u1EC7p
+      s\u1EE9c, l\u1EE3i c\u1EA3 \u0111\xF4i b\xEAn. M\u1ED9t khi li\xEAn minh, th\u1EBF
+      l\u1EF1c s\u1EBD ch\u1EB3ng k\xE9m g\xEC c\xE1c s\u1EE9 qu\xE2n kh\xE1c."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 263f93107010bfa4a9101b1ded57b090, type: 2}
+  isCanonical: 0
+  canonical: 

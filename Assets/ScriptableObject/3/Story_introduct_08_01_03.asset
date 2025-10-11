@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_08_01_03
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "\u0110inh \u0110i\u1EC1n"
+    Lines:
+    - "(S\u1EEFng s\u1EDD, th\u1EDF h\u1ED5n h\u1EC3n r\u1ED3i b\u1EADt c\u01B0\u1EDDi
+      kh\xE0 kh\xE0) \u0110\u01B0\u1EE3c! M\xE0y m\u1EA1nh th\u1EADt! Tao thua t\xE2m
+      ph\u1EE5c kh\u1EA9u ph\u1EE5c. T\u1EEB nay, tao theo m\xE0y!"
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: bfc1cab5dd08458428d4fee12a994567, type: 2}
+  isCanonical: 0
+  canonical: 

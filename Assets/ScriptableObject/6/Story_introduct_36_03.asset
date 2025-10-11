@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_36_03
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "\u0110inh Li\u1EC5n"
+    Lines:
+    - "(T\u1EEB xa, gi\u1ECDng y\u1EBFu \u1EDBt nh\u01B0ng d\xF5ng d\u1EA1c) Ph\u1EE5
+      v\u01B0\u01A1ng, \u0111\u1EEBng h\xE0ng! Con th\xE0 ch\u1EBFt ch\u1EE9 kh\xF4ng
+      l\xE0m nh\u1EE5c t\u1ED5 t\xF4ng!"
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 7d8b7f121ff6db346ac0f511af726082, type: 2}
+  isCanonical: 0
+  canonical: 

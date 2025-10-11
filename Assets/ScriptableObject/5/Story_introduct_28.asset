@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_28
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "T\xF4i"
+    Lines:
+    - "Tin Hoa L\u01B0 d\u1EF1ng c\u1EDD vang kh\u1EAFp v\xF9ng. Tr\xE1ng s\u0129
+      b\u1ED1n ph\u01B0\u01A1ng k\xE9o \u0111\u1EBFn, xin theo \u0110inh Ho\xE0n.
+      Ng\u01B0\u1EDDi ng\u01B0\u1EDDi qu\u1EF3 tr\u01B0\u1EDBc n\xFAi \u0111\xE1,
+      kh\xF3i h\u01B0\u01A1ng nghi ng\xFAt, tr\u1ED1ng tr\u1EADn d\u1ED3n d\u1EADp.
+      \u0110\xE2y l\xE0 c\u01A1 h\u1ED9i \u0111\u1EC3 chi\xEAu m\u1ED9 m\u01B0\u1EDDi
+      v\u1ECB h\u1ED5 t\u01B0\u1EDBng \u2014 nh\u01B0ng c\u0169ng l\xE0 l\xFAc k\u1EBB
+      l\u1EA1 c\xF3 th\u1EC3 tr\xE0 tr\u1ED9n."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 412e7c3d1ce110f4c8c408b38d8599a2, type: 2}
+  isCanonical: 0
+  canonical: 

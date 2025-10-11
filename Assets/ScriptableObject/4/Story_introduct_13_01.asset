@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_13_01
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "\u0110\xE0m Th\u1ECB"
+    Lines:
+    - "Gi\u1EEFa d\xF2ng n\u01B0\u1EDBc d\u1EEF, s\xE0o tre c\u1EE7a \u0110\xE0m
+      Th\u1ECB v\u01B0\u01A1n ra nh\u01B0ng qu\xE1 xa. \u0110inh Ho\xE0n kh\xF4ng
+      ho\u1EA3ng lo\u1EA1n. C\u1EADu b\xE9 bi\u1EBFt m\xECnh kh\xF4ng th\u1EC3 b\xE1m
+      v\xE0o \u0111\u01B0\u1EE3c, c\u0169ng kh\xF4ng th\u1EC3 ch\u1ED1ng ch\u1ECDi
+      v\u1EDBi s\u1EE9c n\u01B0\u1EDBc cu\u1ED3n cu\u1ED9n."
+    - "Trong kho\u1EA3nh kh\u1EAFc sinh t\u1EED, m\u1ED9t \xFD ngh\u0129 l\xF3e l\xEAn
+      trong \u0111\u1EA7u c\u1EADu: \"Ph\u1EA3i t\u1EF1 m\xECnh tho\xE1t ra!\" C\u1EADu
+      g\u1ED3ng m\xECnh, h\xEDt m\u1ED9t h\u01A1i th\u1EADt s\xE2u v\xE0 l\u1EB7n
+      s\xE2u xu\u1ED1ng, chui d\u01B0\u1EDBi g\u1EA7m xo\xE1y n\u01B0\u1EDBc. D\xE2n
+      l\xE0ng n\xEDn th\u1EDF d\xF5i theo, kh\xF4ng ai d\xE1m tin v\xE0o m\u1EAFt
+      m\xECnh."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 224c75dbc25c714429197c170161599d, type: 2}
+  isCanonical: 0
+  canonical: 

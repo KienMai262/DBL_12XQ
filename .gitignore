@@ -1,0 +1,10 @@
+Library/
+Temp/
+Logs/
+[Bb]uild*/
+[Oo]bj/
+UserSettings/
+ProjectSettings/UnityConnectSettings.asset
+*.sln
+*.csproj
+.vscode/

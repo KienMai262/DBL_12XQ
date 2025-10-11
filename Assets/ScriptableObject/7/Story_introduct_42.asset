@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_42
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "T\xF4i"
+    Lines:
+    - "M\u1ED9t h\u1EA1m \u0111\u1ED9i kh\u1ED5ng l\u1ED3 \u2013 h\xE0ng ch\u1EE5c
+      thuy\u1EC1n l\u1EDBn, thuy\u1EC1n nh\u1ECF \u2013 d\xE0n h\xE0ng ngang tr\xEAn
+      d\xF2ng s\xF4ng, ch\u1EB7n \u0111\u1EE9ng l\u1ED1i \u0111i. \xC1nh \u0111u\u1ED1c
+      ph\u1EA3n chi\u1EBFu tr\xEAn m\u1EB7t n\u01B0\u1EDBc nh\u01B0 h\xE0ng r\xE0o
+      l\u1EEDa."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 0}
+  isCanonical: 0
+  canonical: 

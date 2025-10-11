@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_29
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "T\xF4i"
+    Lines:
+    - "N\u0103m 951, Tri\u1EC1u Ng\xF4 suy y\u1EBFu, n\u1ED9i b\u1ED9 r\u1ED1i ren,
+      c\xE1c th\u1EBF l\u1EF1c h\xE0o tr\u01B0\u1EDFng n\u1ED5i l\xEAn b\u1ED1n ph\u01B0\u01A1ng.
+      Hoa L\u01B0 \u2013 c\u0103n c\u1EE9 hi\u1EC3m y\u1EBFu c\u1EE7a \u0110inh B\u1ED9
+      L\u0129nh \u2013 tr\u1EDF th\xE0nh m\u1EE5c ti\xEAu b\u1ECB d\xF2m ng\xF3.
+      Mu\u1ED1n kh\u1EB3ng \u0111\u1ECBnh uy th\u1EBF, qu\xE2n Ng\xF4 b\u1EA5t ng\u1EDD
+      k\xE9o \u0111\u1EA1i binh v\xE2y h\xE3m, tr\u1ED1ng tr\u1EADn vang d\u1EADy
+      c\u1EA3 n\xFAi r\u1EEBng.\n\u0110\u1EC3 b\u1EBB g\xE3y \xFD ch\xED kh\xE1ng
+      c\u1EF1, ch\xFAng n\u1EAFm \u0111\u01B0\u1EE3c con tr\u01B0\u1EDFng c\u1EE7a
+      \xF4ng \u2013 \u0110inh Li\u1EC5n \u2013 r\u1ED3i tr\xF3i treo tr\xEAn s\xE0o
+      cao, ph\u01A1i gi\u1EEFa tr\u1EDDi \u0111\u1EA5t cho to\xE0n qu\xE2n \u0111\u1EC1u
+      th\u1EA5y. Ti\u1EBFng h\xF2 h\xE9t vang v\u1ECDng: \u2018H\xE0ng \u0111i, n\u1EBFu
+      kh\xF4ng con ng\u01B0\u01A1i s\u1EBD ch\u1EBFt tr\u01B0\u1EDBc m\u1EAFt!\u2019\nKho\u1EA3nh
+      kh\u1EAFc \u1EA5y, chi\u1EBFn tr\u01B0\u1EDDng kh\xF4ng c\xF2n \u0111\u01A1n
+      thu\u1EA7n l\xE0 cu\u1ED9c v\xE2y h\xE3m th\xE0nh tr\xEC, m\xE0 bi\u1EBFn th\xE0nh
+      ph\xE9p th\u1EED nghi\u1EC7t ng\xE3 \u0111\u1ED1i v\u1EDBi m\u1ED9t ng\u01B0\u1EDDi
+      cha \u0111ang g\xE1nh tr\xEAn vai v\u1EADn m\u1EC7nh s\u01A1n h\xE0: t\xECnh
+      th\xE2n, s\u0129 kh\xED, hay ch\xED l\u1EDBn \u2013 \xF4ng s\u1EBD ch\u1ECDn
+      \u0111i\u1EC1u g\xEC?"
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 0}
+  isCanonical: 1
+  canonical: "Hoa L\u01B0 v\u1EDBi \u0111\u1ECBa th\u1EBF n\xFAi \u0111\xE1 \u2013
+    s\xF4ng ng\xF2i hi\u1EC3m y\u1EBFu \u0111\xE3 tr\u1EDF th\xE0nh kinh \u0111\xF4
+    \u0111\u1EA7u ti\xEAn c\u1EE7a \u0110\u1EA1i C\u1ED3 Vi\u1EC7t. Vi\u1EC7c quy
+    t\u1EE5 d\xE2n binh, m\u1EDF ch\u1EE3, v\xE0 chi\xEAu m\u1ED9 t\u01B0\u1EDBng
+    t\xE0i \u0111\u1EB7t n\u1EC1n m\xF3ng cho vi\u1EC7c \u0110inh B\u1ED9 L\u0129nh
+    sau n\xE0y d\u1EB9p lo\u1EA1n 12 s\u1EE9 qu\xE2n."

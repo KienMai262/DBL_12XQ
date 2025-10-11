@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_41
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "T\xF4i"
+    Lines:
+    - "N\u0103m \u1EA4t S\u1EEDu, ni\xEAn hi\u1EC7u Th\xE1i B\xECnh th\u1EE9 s\xE1u
+      (965), \u0110inh B\u1ED9 L\u0129nh \u0111\xE3 d\u1EB9p \u0111\u01B0\u1EE3c
+      m\u01B0\u1EDDi ho\xE0ng tr\u1EA5n, oai danh rung chuy\u1EC3n Giao Ch\xE2u.
+      Nh\u01B0ng ph\xEDa B\u1EAFc, Tr\u1EA7n L\xE3m \u2013 v\u1ECB t\u01B0\u1EDBng
+      k\u1EF3 c\u1EF1u t\u1EEBng theo D\u01B0\u01A1ng \u0110\xECnh Ngh\u1EC7, nay
+      \u0111\xF3ng qu\xE2n \u1EDF B\u1ED1 H\u1EA3i, v\u1EABn ch\u01B0a quy ph\u1EE5c.\n\u0110\xEAm
+      th\xE1ng n\u0103m, m\u01B0a gi\xF3 d\u1EEF d\u1ED9i. \u0110inh Ho\xE0n \u2013
+      t\u1EF1 x\u01B0ng l\xE0 V\u1EA1n Th\u1EAFng V\u01B0\u01A1ng, d\u1EABn qu\xE2n
+      ti\u1EBFn \u0111\xE1nh Tr\u1EA7n L\xE3m. Nh\u01B0ng \xF4ng kh\xF4ng ng\u1EDD,
+      m\xECnh \u0111\xE3 b\u01B0\u1EDBc v\xE0o m\u1ED9t c\xE1i b\u1EABy tinh vi\u2026"
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 039163d6dbaa4df46b5c498dde20ab4a, type: 2}
+  isCanonical: 0
+  canonical: 
