@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_91
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "Ng\xF4 V\u0103n Ch\u1EA5n"
+    Lines:
+    - "(C\xFAi ch\xE0o) \u0110inh c\xF4ng t\u1EED, ta l\xE0 Ng\xF4 V\u0103n Ch\u1EA5n,
+      m\u01B0u s\u0129 c\u1EE7a Tr\u1EA7n L\xE3m ch\xFAa c\xF4ng. Ch\xFAa c\xF4ng
+      ta sai ta \u0111\u1EBFn \u0111\xE2y, c\xF3 l\u1EDDi mu\u1ED1n n\xF3i v\u1EDBi
+      c\xF4ng t\u1EED."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 636ceadb003787f438389fcd91adfde0, type: 2}
+  isCanonical: 0
+  canonical: 

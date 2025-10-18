@@ -16,7 +16,13 @@ public enum DialogType { Chat, Narrator }
 public class ChoiceBranch
 {
     [TextArea] public string choiceText;
-    public Conversation nextConversation;
+
+    [Header("Logic Điều Kiện")]
+    public Parameter requiredStats;
+    public Conversation successConversation;
+    public Conversation failureConversation;
+
+    [Header("Hệ quả")]
     public Parameter parameterChange;
 }
 
@@ -29,6 +35,12 @@ public class Conversation : ScriptableObject
 
     [Header("Branching Logic")]
     public List<ChoiceBranch> choices;
+
+    [Header("Game Logic")]
+    public bool triggersBattleResolution;
+
+    public bool isCompleteParenthetical;
+    public Parameter onCompletionParameterChange;
 
     public Conversation nextConversation;
 

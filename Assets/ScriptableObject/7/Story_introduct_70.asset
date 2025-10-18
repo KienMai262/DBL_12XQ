@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_70
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "Binh s\u0129"
+    Lines:
+    - "(Gi\u1ECDng run r\u1EA9y, g\u1EA7n nh\u01B0 kh\xF3c) Xong r\u1ED3i... xong
+      r\u1ED3i... Ta ch\u1EBFt h\u1EBFt..."
+    - "(Qu\u1EF3 xu\u1ED1ng, v\u1EE9t v\u0169 kh\xED) Tr\u1EDDi \u01A1i... kh\xF4ng
+      qua \u0111\u01B0\u1EE3c n\u1EEFa..."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 51d6808b66209144388a5a5eb02dfd27, type: 2}
+  isCanonical: 0
+  canonical: 

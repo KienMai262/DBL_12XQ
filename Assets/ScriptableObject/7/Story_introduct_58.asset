@@ -25,6 +25,6 @@ MonoBehaviour:
     images:
     - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
   choices: []
-  nextConversation: {fileID: 0}
+  nextConversation: {fileID: 11400000, guid: 0e8bf7028a3921744b4bce889cc0eca1, type: 2}
   isCanonical: 0
   canonical: 

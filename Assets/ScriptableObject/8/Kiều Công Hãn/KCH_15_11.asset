@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: KCH_15_11
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "T\u01B0\u1EDBng Ki\u1EC1u"
+    Lines:
+    - "C\u1EDD Ki\u1EC1u chao. H\xE3n b\u1ECB d\u1ED3n kh\u1ECFi g\xF2, l\u01B0ng
+      d\xEDnh v\xE1ch \u0111\xE1 m\u1EBB. C\u1ED5ng \u0111\xE1 tr\u01B0\u1EDBc th\xE0nh
+      m\u1EDF mu\u1ED9n v\xEC ch\xEAm g\u1ED7 k\u1EB9t. Th\xE2n t\xEDn \u0111\u1ED5
+      v\xF2ng, m\u1ED9t con ng\u1EF1a qu\u1EF5 tr\u01B0\u1EDBc r\xE3nh su\u1ED1i,
+      k\xE9o theo hai k\u1EF5 sau ng\xE3 ch\u1ED3ng."
+    - "K\u1EF5 d\u1EF1 b\u1ECB \u0110inh \u0111\xE8 xi\xEAn v\xE0o s\u01B0\u1EDDn
+      ph\u1EA3i. N\u1ECF tuy\u1EBFn ba ch\u1ED1t nh\u1ECBp, b\u1EAFn d\u1ED3n v\xE0o
+      \u0111\u1ED9i c\u1EAFm c\u1EDD c\u1EE7a Ki\u1EC1u. H\xE3n c\u1ED1 xoay \u0111\u01B0\u1EDDng
+      th\u01B0\u1EE3ng \u0111\u1EA1o, tr\u01B0\u1EE3t d\u1ED1c, tr\xFAng lao, th\u01B0\u01A1ng
+      n\u1EB7ng. \u0110\u1ED9i c\u1EDD r\u1ED1i, h\xE0ng b\u1ED9 ph\xEDa sau b\u1ECB
+      cu\u1ED1n. C\u1EEDa c\u1ED5ng m\u1EDF tr\u1EC5, ng\u01B0\u1EDDi gi\u1EEF c\u1ED5ng
+      lu\u1ED1ng cu\u1ED1ng r\xFAt ch\xEAm. Th\xE0nh h\u1EA1 tr\u01B0\u1EDBc khi
+      chi\u1EC1u ng\u1EA3."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  triggersBattleResolution: 0
+  nextConversation: {fileID: 11400000, guid: 63a201bef29fba4438cc0d2fdd4be3d8, type: 2}
+  isCanonical: 0
+  canonical: 

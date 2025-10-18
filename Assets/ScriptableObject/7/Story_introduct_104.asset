@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_104
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "\u0110inh \u0110i\u1EC1n"
+    Lines:
+    - "(G\u1EADt \u0111\u1EA7u) \u0110\xFAng v\u1EADy! H\u01A1n n\u1EEFa, v\u1EC1
+      d\u01B0\u1EDBi tr\u01B0\u1EDBng Tr\u1EA7n L\xE3m kh\xF4ng ph\u1EA3i l\xE0 \u0111i\u1EC1u
+      nh\u1EE5c. \xD4ng ta l\xE0 m\u1ED9t trong nh\u1EEFng t\u01B0\u1EDBng m\u1EA1nh
+      nh\u1EA5t Giao Ch\xE2u. H\u1ECDc h\u1ECFi t\u1EEB \xF4ng, ta s\u1EBD c\xF3
+      c\u01A1 h\u1ED9i l\u1EDBn h\u01A1n!"
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: a924f47e02b006d4da450fa545582a6c, type: 2}
+  isCanonical: 0
+  canonical: 

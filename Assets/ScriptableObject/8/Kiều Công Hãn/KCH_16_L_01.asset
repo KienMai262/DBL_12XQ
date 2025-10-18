@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: KCH_16_L_01
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: Ta
+    Lines:
+    - "Sau khi c\u1EAFt \u0111\u01B0\u1EE3c ti\u1EBFp t\u1EBF c\u1EE7a qu\xE2n Ki\u1EC3u.
+      Ch\u1ECDn ch\u1EDD \u0111\u1EE3i, ch\u1EDD \u0111\u1EBFn khi qu\xE2n Ki\u1EC1u
+      y\u1EBFu th\xEA s\u1EBD l\u1EADp t\u1EE9c t\u1EA5n c\xF4ng. Nh\u01B0ng ..."
+    - "Ng\xE0y th\u1EE9 s\xE1u. Ch\xE1o lo\xE3ng. Kho g\u1EA1o tr\u01A1 \u0111\xE1y.
+      G\xE1c m\u1EC7t, v\xF2ng si\u1EBFt h\u1EDF mi\u1EC7ng."
+    - "Ki\u1EC1u \u0111\xE1nh hai c\u1ED5ng. B\u1EBFn s\xF4ng b\u1ECB nh\u1ED5 c\u1ECDc.
+      Thuy\u1EC1n l\u01B0\u01A1ng v\xE0o th\xE0nh li\xEAn ti\u1EBFp. Tu\u1EA7n tra
+      \u0110inh b\u1ECB k\u1EB9p gi\u1EEFa m\xE9p n\u01B0\u1EDBc v\xE0 b\xE3i s\u1ECFi.
+      L\xEDnh ng\xE3 v\xEC \u0111\xF3i tr\u01B0\u1EDBc khi v\xEC \u0111ao."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  triggersBattleResolution: 0
+  isCompleteParenthetical: 0
+  onCompletionParameterChange:
+    UT: 6
+    CD: 4
+    LD: 7
+    SK: 6
+    ML: 5
+    NG: 4
+    TX: 5
+    QL: 600
+    TB: 3
+    V: 30
+    L: 120
+  nextConversation: {fileID: 0}
+  isCanonical: 0
+  canonical: 

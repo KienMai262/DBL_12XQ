@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_85_21
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "Tr\u1EA7n L\xE3m"
+    Lines:
+    - "(Gi\u1ECDng kh\xE2m ph\u1EE5c) Thua m\xE0 v\u1EABn hi\xEAn ngang. Qu\xE2n
+      \u0111\xE3 tan, c\u1EA7u \u0111\xE3 g\xE3y, \u0111\u1ECBch bao v\xE2y t\u1EE9
+      ph\xEDa, m\xE0 h\u1EAFn v\u1EABn d\xE1m x\xF4ng l\xEAn \u0111\xE1nh ta. Kh\xED
+      ph\xE1ch nh\u01B0 th\u1EBF... ta kh\xF4ng th\u1EC3 khinh th\u01B0\u1EDDng."
+    - "Tr\u1EADn n\xE0y, \u0110inh Ho\xE0n thua v\u1EC1 binh l\u1EF1c, nh\u01B0ng
+      kh\xF4ng thua v\u1EC1 kh\xED th\u1EBF. Ng\u01B0\u1EDDi nh\u01B0 th\u1EBF m\xE0
+      gi\u1EBFt \u0111i... th\u1EADt ph\xED."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: d04ec048dc5d905449188ef9959cbd39, type: 2}
+  isCanonical: 0
+  canonical: 

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: KCH_16_L_07
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: Ta
+    Lines:
+    - "S\xF3ng h\u1EA5t. G\u01B0\u01A1m ch\xE9m ngang s\u01B0\u1EDDn. Th\xE2n r\u01A1i
+      xu\u1ED1ng n\u01B0\u1EDBc l\u1EA1nh. \xC2m thanh ch\xECm l\u1ECBm. V\u1EC7t
+      \u0111u\u1ED1c cu\u1ED1i l\u1ECBm tr\xEAn m\u1EB7t s\xF4ng. B\u1ECDt n\u01B0\u1EDBc
+      pha \u0111\u1ECF."
+    - "Ta \u0111\xE3 \u0111\xE1nh gi\xE1 th\u1EA5p b\u1ECDn ch\xFAng r\u1ED3i. "
+    - "B\u1EE5ng r\u1ED7ng, v\xF2ng r\u1ED7ng, l\xF2ng r\u1ED7ng."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  triggersBattleResolution: 0
+  isCompleteParenthetical: 0
+  onCompletionParameterChange:
+    UT: 6
+    CD: 4
+    LD: 7
+    SK: 6
+    ML: 5
+    NG: 4
+    TX: 5
+    QL: 600
+    TB: 3
+    V: 30
+    L: 120
+  nextConversation: {fileID: 0}
+  isCanonical: 0
+  canonical: 

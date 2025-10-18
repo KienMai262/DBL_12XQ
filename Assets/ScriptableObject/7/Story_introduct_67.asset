@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_67
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "Binh s\u0129"
+    Lines:
+    - "Qu\xE2n s\u0129 v\u1ED9i v\xE0ng d\xF9ng khi\xEAn tre, l\xE1 c\xE2y \u01B0\u1EDBt
+      che \u0111\u1EA7u. Nh\u01B0ng h\u1ED7n lo\u1EA1n b\u1EAFt \u0111\u1EA7u lan."
+    - "Ti\u1EBFng ng\u01B0\u1EDDi h\xF2 h\xE9t, ti\u1EBFng ch\xE2n ng\u01B0\u1EDDi
+      ch\u1EA1y, ti\u1EBFng g\u01B0\u01A1m gi\xE1o va ch\u1EA1m l\u1EABn l\u1ED9n."
+    - "B\u1ED7ng nhi\xEAn\u2014\nR\u1EAEC!\nTi\u1EBFng g\u1ED7 n\u1EE9t v\u1EE1 vang
+      l\xEAn r\u1EA5t r\xF5. M\u1ED9t thanh g\u1ED7 ngang b\u1ECB g\xE3y, m\u1ED9t
+      g\xF3c c\u1EA7u l\xFAn xu\u1ED1ng."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 43a46fcc216f4044fa4dc198889987fd, type: 2}
+  isCanonical: 0
+  canonical: 

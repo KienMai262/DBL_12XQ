@@ -13,29 +13,36 @@ MonoBehaviour:
   m_Name: STORY
   m_EditorClassIdentifier: 
   story:
-  - nameList: "Ti\u1EC1n truy\u1EC7n"
+  - nameStory: "Ti\u1EC1n truy\u1EC7n"
+    nameList: "Ti\u1EC1n truy\u1EC7n"
     conversations:
     - {fileID: 11400000, guid: d1cde5b6805f77e47be1dcb0843a35f9, type: 2}
-  - nameList: "T\xE2m tr\u1EA1ng"
+  - nameStory: "T\xE2m tr\u1EA1ng"
+    nameList: "T\xE2m tr\u1EA1ng"
     conversations:
     - {fileID: 11400000, guid: a33df2a0d70a0ac4691620dcc6976d7b, type: 2}
-  - nameList: "Ch\u01B0\u01A1ng I \u2013 Tu\u1ED5i th\u01A1 Hoa L\u01B0 (924\u2013950).
+  - nameStory: "Ch\u01B0\u01A1ng I. M\xE0n 1.1."
+    nameList: "Ch\u01B0\u01A1ng I \u2013 Tu\u1ED5i th\u01A1 Hoa L\u01B0 (924\u2013950).
       M\xE0n 1.1 \u2013 C\u1EDD Lau T\u1EADp Tr\u1EADn"
     conversations:
     - {fileID: 11400000, guid: 0a49d1cee2e4274439c97ce1d198d792, type: 2}
-  - nameList: "Ch\u01B0\u01A1ng I \u2013 Tu\u1ED5i th\u01A1 Hoa L\u01B0 (924\u2013950).
+  - nameStory: "Ch\u01B0\u01A1ng I. M\xE0n 1.2."
+    nameList: "Ch\u01B0\u01A1ng I \u2013 Tu\u1ED5i th\u01A1 Hoa L\u01B0 (924\u2013950).
       M\xE0n 1.2 \u2013 B\xE0i h\u1ECDc d\xF2ng l\u0169."
     conversations:
     - {fileID: 11400000, guid: e252223e5f7bcc340a95e86ab4e341b5, type: 2}
-  - nameList: "Ch\u01B0\u01A1ng II - D\u01B0\u1EDBi b\xF3ng H\u1EADu Ng\xF4. M\xE0n
+  - nameStory: "Ch\u01B0\u01A1ng II. M\xE0n 2.1."
+    nameList: "Ch\u01B0\u01A1ng II - D\u01B0\u1EDBi b\xF3ng H\u1EADu Ng\xF4. M\xE0n
       2.1 \u2013 L\u1EADp c\u0103n c\u1EE9 Hoa L\u01B0 (951\u2013959)"
     conversations:
     - {fileID: 11400000, guid: 8ba558fe4450be04caf08726238179d2, type: 2}
-  - nameList: "Ch\u01B0\u01A1ng II - D\u01B0\u1EDBi b\xF3ng H\u1EADu Ng\xF4. M\xE0n
+  - nameStory: "Ch\u01B0\u01A1ng II. M\xE0n 2.2."
+    nameList: "Ch\u01B0\u01A1ng II - D\u01B0\u1EDBi b\xF3ng H\u1EADu Ng\xF4. M\xE0n
       2.2 \u2013 V\xE2y cung Hoa L\u01B0, con tin \u0110inh Li\u1EC5n (951)"
     conversations:
     - {fileID: 11400000, guid: c594a3443328b714993add3ec28d115f, type: 2}
-  - nameList: "Ch\u01B0\u01A1ng II - D\u01B0\u1EDBi b\xF3ng H\u1EADu Ng\xF4. M\xE0n
+  - nameStory: "Ch\u01B0\u01A1ng II. M\xE0n 2.3."
+    nameList: "Ch\u01B0\u01A1ng II - D\u01B0\u1EDBi b\xF3ng H\u1EADu Ng\xF4. M\xE0n
       2.3 \u2013 Ng\xF4i minh ch\u1EE7: Tr\u1EA7n L\xE3m (965\u2013966)"
     conversations:
     - {fileID: 11400000, guid: 87f7b9d3c5054bd4baf348db64194880, type: 2}

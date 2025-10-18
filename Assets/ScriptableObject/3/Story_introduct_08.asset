@@ -23,7 +23,20 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 7790c098e80c21f4a853bcc85a8e6270, type: 3}
   choices:
   - choiceText: "Quy\u1EBFt \u0111\u1EA5u ch\xEDnh di\u1EC7n"
-    nextConversation: {fileID: 11400000, guid: 999b6f4eb269e8c4099d5a701c37814f, type: 2}
+    requiredStats:
+      UT: 6
+      CD: 4
+      LD: 7
+      SK: 6
+      ML: 5
+      NG: 4
+      TX: 5
+      QL: 600
+      TB: 3
+      V: 30
+      L: 120
+    successConversation: {fileID: 11400000, guid: 999b6f4eb269e8c4099d5a701c37814f, type: 2}
+    failureConversation: {fileID: 0}
     parameterChange:
       UT: 2
       CD: 0
@@ -37,7 +50,20 @@ MonoBehaviour:
       V: 0
       L: 0
   - choiceText: "Gi\u1EA3 v\u1EDD y\u1EBFu \u2013 \u0111\xE1nh \xFAp ph\xFAt ch\xF3t"
-    nextConversation: {fileID: 11400000, guid: 02c102f96cc680e48b384261a11826e3, type: 2}
+    requiredStats:
+      UT: 6
+      CD: 4
+      LD: 7
+      SK: 6
+      ML: 5
+      NG: 4
+      TX: 5
+      QL: 600
+      TB: 3
+      V: 30
+      L: 120
+    successConversation: {fileID: 11400000, guid: 02c102f96cc680e48b384261a11826e3, type: 2}
+    failureConversation: {fileID: 0}
     parameterChange:
       UT: -1
       CD: 0
@@ -51,7 +77,20 @@ MonoBehaviour:
       V: 0
       L: 0
   - choiceText: "\u0110\xE0m ph\xE1n v\u1EDBi \u0110inh \u0110i\u1EC1n"
-    nextConversation: {fileID: 11400000, guid: 866a374594d43784e97691177ffb9a44, type: 2}
+    requiredStats:
+      UT: 6
+      CD: 4
+      LD: 7
+      SK: 6
+      ML: 5
+      NG: 4
+      TX: 5
+      QL: 600
+      TB: 3
+      V: 30
+      L: 120
+    successConversation: {fileID: 11400000, guid: 866a374594d43784e97691177ffb9a44, type: 2}
+    failureConversation: {fileID: 0}
     parameterChange:
       UT: 0
       CD: 0
@@ -64,6 +103,20 @@ MonoBehaviour:
       TB: 0
       V: 0
       L: 0
+  triggersBattleResolution: 0
+  isCompleteParenthetical: 0
+  onCompletionParameterChange:
+    UT: 6
+    CD: 4
+    LD: 7
+    SK: 6
+    ML: 5
+    NG: 4
+    TX: 5
+    QL: 600
+    TB: 3
+    V: 30
+    L: 120
   nextConversation: {fileID: 0}
   isCanonical: 0
   canonical: 

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: KCH_16_04
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "\u0110inh Li\u1EC5n"
+    Lines:
+    - "Ki\u1EC1u l\u1EC7nh \u201C\u0111\u1EADp v\xF2ng\u201D. K\u1EF5 xu\u1ED1ng
+      b\u1EBFn, g\u1EB7p b\xF9n l\u1EA7y. V\xF3 h\u1EE5t ch\xE2n, ng\u1EF1a tr\u01B0\u1EE3t,
+      ng\u01B0\u1EDDi g\u1EE1 c\u1ECDc c\xE0ng g\u1EE1 c\xE0ng k\u1EB9t. N\u1ECF
+      tr\xEAn l\u0169y b\u1EAFn qu\u1EA5y ph\xE1 nh\u01B0ng t\u1EA7m y\u1EBFu v\xEC
+      \u1EA9m."
+    - "Tu\u1EA7n tra \u0110inh v\u1EDD thua, nh\u1EED \u0111\u1ED9i gi\u1EA3i c\u1ECDc
+      v\xE0o b\xE3i s\u1ECFi, r\u1ED3i n\u1ECF hai b\xEAn t\u1EA1t ngang. N\u1ED9i
+      th\xE0nh t\u0103ng s\u01B0u mu\u1ED1i, ti\u1EBFng c\xE3i v\xE3 \u1EDF b\u1EBFn.
+      T\xEDn hi\u1EC7u l\u1EEDa t\u1EEB v\u1ECDng l\xE2u ch\u1EADp ch\u1EDDn v\xEC
+      m\u01B0a r\xE0o. \u0110\xEAm th\u1EE9 t\u01B0, \u0111\u1ED9i l\u1EB7n Ki\u1EC1u
+      c\u1ED1 c\u1EAFt d\xE2y d\u01B0\u1EDBi n\u01B0\u1EDBc, m\u1EAFc ngay l\u01B0\u1EDBi
+      gai, \u0111\u1EC3 l\u1EA1i hai ng\u01B0\u1EDDi b\u1ECB b\u1EAFt."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  triggersBattleResolution: 0
+  onCompletionParameterChange:
+    UT: 6
+    CD: 4
+    LD: 7
+    SK: 6
+    ML: 5
+    NG: 4
+    TX: 5
+    QL: 600
+    TB: 3
+    V: 30
+    L: 120
+  nextConversation: {fileID: 0}
+  isCanonical: 0
+  canonical: 

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: KCH_16_14
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "T\xF9y t\u01B0\u1EDBng"
+    Lines:
+    - "C\u1EDD Ki\u1EC1u r\u01A1i. C\u1ED5ng xin gi\u1EA3ng h\xF2a."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  triggersBattleResolution: 0
+  isCompleteParenthetical: 1
+  onCompletionParameterChange:
+    UT: 5
+    CD: 2
+    LD: 2
+    SK: 5
+    ML: 5
+    NG: 0
+    TX: 5
+    QL: 500
+    TB: 1
+    V: 150
+    L: 250
+  nextConversation: {fileID: 0}
+  isCanonical: 1
+  canonical: "Ki\u1EC1u C\xF4ng H\xE3n, ch\xE1u n\u1ED9i Ki\u1EC1u C\xF4ng Ti\u1EC5n,
+    chi\u1EBFm gi\u1EEF Phong Ch\xE2u v\xE0 t\u1EF1 x\u01B0ng \u201CKi\u1EC1u Tam
+    Ch\u1EBF\u201D trong th\u1EDDi lo\u1EA1n 12 s\u1EE9 qu\xE2n; th\u1EBF l\u1EF1c
+    n\xE0y b\u1ECB qu\xE2n \u0110inh B\u1ED9 L\u0129nh \u0111\xE1nh b\u1EA1i v\xE0o
+    n\u0103m 967, d\u1EABn t\u1EDBi th\u1EA5t th\u1EE7 Phong Ch\xE2u v\xE0 tan r\xE3
+    th\u1EBF l\u1EF1c h\u1ECD Ki\u1EC1u; \u0111a s\u1ED1 t\u01B0 li\u1EC7u ch\u1EC9
+    d\u1EEBng \u1EDF m\u1ED1c n\u0103m, c\xF2n c\xE1c m\u01B0u k\u1EBF giao chi\u1EBFn
+    kh\xF4ng \u0111\u01B0\u1EE3c ch\xEDnh s\u1EED ghi ch\xE9p; d\u1ECB b\u1EA3n \u0111\u1ECBa
+    ph\u01B0\u01A1ng ch\xE9p \xF4ng b\u1ECB th\u01B0\u01A1ng khi r\xFAt lui v\xE0
+    m\u1EA5t v\xE0o cu\u1ED1i n\u0103m 967 ho\u1EB7c \u0111\u1EA7u 968 (th\u01B0\u1EDDng
+    n\xEAu m\u1ED3ng 10 th\xE1ng Ch\u1EA1p n\u0103m \u0110inh M\xE3o 967)."

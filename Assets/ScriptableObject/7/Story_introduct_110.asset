@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_110
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: Ta
+    Lines:
+    - "M\u1ED9t: Qu\xE2n s\u0129 c\u1EE7a ta ph\u1EA3i \u0111\u01B0\u1EE3c \u0111\u1ED1i
+      x\u1EED c\xF4ng b\u1EB1ng, kh\xF4ng ai \u0111\u01B0\u1EE3c khinh th\u01B0\u1EDDng
+      hay ph\xE2n bi\u1EC7t."
+    - "Hai: Ta mu\u1ED1n t\u1EF1 ch\u1EC9 huy qu\xE2n c\u1EE7a m\xECnh. Ta kh\xF4ng
+      mu\u1ED1n b\u1ECB can thi\u1EC7p trong c\xE1ch \u0111i\u1EC1u binh khi\u1EC3n
+      t\u01B0\u1EDBng."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 57603910259639d468885e3cfa87333c, type: 2}
+  isCanonical: 0
+  canonical: 

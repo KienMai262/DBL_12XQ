@@ -26,7 +26,20 @@ MonoBehaviour:
   choices:
   - choiceText: "V\xF5 s\u0129 xu\u1ED1ng ru\u1ED9ng, \u0111\u1EAFp l\u0169y, m\u1EDF
       kho th\xF3c"
-    nextConversation: {fileID: 11400000, guid: dea1ac40cd969e44d800d780d07d31fe, type: 2}
+    requiredStats:
+      UT: 6
+      CD: 4
+      LD: 7
+      SK: 6
+      ML: 5
+      NG: 4
+      TX: 5
+      QL: 600
+      TB: 3
+      V: 30
+      L: 120
+    successConversation: {fileID: 11400000, guid: dea1ac40cd969e44d800d780d07d31fe, type: 2}
+    failureConversation: {fileID: 0}
     parameterChange:
       UT: 0
       CD: 0
@@ -40,7 +53,20 @@ MonoBehaviour:
       V: -5
       L: 80
   - choiceText: "M\u1EDF ch\u1EE3 s\xF4ng Ho\xE0ng Long, thu\u1EBF nh\u1EB9"
-    nextConversation: {fileID: 11400000, guid: 84e3596eee4197d44834a9f7c0f5086b, type: 2}
+    requiredStats:
+      UT: 6
+      CD: 4
+      LD: 7
+      SK: 6
+      ML: 5
+      NG: 4
+      TX: 5
+      QL: 600
+      TB: 3
+      V: 30
+      L: 120
+    successConversation: {fileID: 11400000, guid: 84e3596eee4197d44834a9f7c0f5086b, type: 2}
+    failureConversation: {fileID: 0}
     parameterChange:
       UT: 0
       CD: 0
@@ -53,6 +79,20 @@ MonoBehaviour:
       TB: 2
       V: 20
       L: 0
+  triggersBattleResolution: 0
+  isCompleteParenthetical: 0
+  onCompletionParameterChange:
+    UT: 6
+    CD: 4
+    LD: 7
+    SK: 6
+    ML: 5
+    NG: 4
+    TX: 5
+    QL: 600
+    TB: 3
+    V: 30
+    L: 120
   nextConversation: {fileID: 0}
   isCanonical: 0
   canonical: 

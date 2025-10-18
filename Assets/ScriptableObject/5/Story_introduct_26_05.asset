@@ -26,7 +26,20 @@ MonoBehaviour:
   choices:
   - choiceText: "Sau khi c\xF3 \u0111\u01B0\u1EE3c ngu\u1ED3n t\xE0i l\u1EF1c, b\u1EAFt
       \u0111\u1EA7u chi\xEAu m\u1ED9 binh quy\u1EC1n"
-    nextConversation: {fileID: 11400000, guid: 004b8263b0a330b4ba5a2972f0eb9fe9, type: 2}
+    requiredStats:
+      UT: 6
+      CD: 4
+      LD: 7
+      SK: 6
+      ML: 5
+      NG: 4
+      TX: 5
+      QL: 600
+      TB: 3
+      V: 30
+      L: 120
+    successConversation: {fileID: 11400000, guid: 004b8263b0a330b4ba5a2972f0eb9fe9, type: 2}
+    failureConversation: {fileID: 0}
     parameterChange:
       UT: 2
       CD: 2
@@ -39,6 +52,20 @@ MonoBehaviour:
       TB: 0
       V: 0
       L: 0
+  triggersBattleResolution: 0
+  isCompleteParenthetical: 0
+  onCompletionParameterChange:
+    UT: 6
+    CD: 4
+    LD: 7
+    SK: 6
+    ML: 5
+    NG: 4
+    TX: 5
+    QL: 600
+    TB: 3
+    V: 30
+    L: 120
   nextConversation: {fileID: 0}
   isCanonical: 0
   canonical: 

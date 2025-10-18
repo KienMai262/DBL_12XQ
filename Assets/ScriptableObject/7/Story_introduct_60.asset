@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
   m_Name: Story_introduct_60
   m_EditorClassIdentifier: 
-  type: 1
+  type: 0
   description: 
   sentences:
     nameNPC: "Binh s\u0129 "
     Lines:
-    - "C\u1EA7u rung qu\xE1! C\u1EA7u s\u1EAFp s\u1EADp r\u1ED3i!"
+    - "\u0110i nhanh l\xEAn! Qu\xE2n \u0111\u1ECBch \u0111u\u1ED5i theo r\u1ED3i!"
     images:
     - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
   choices: []
-  nextConversation: {fileID: 0}
+  nextConversation: {fileID: 11400000, guid: c68986e162c814045a95486f834e0578, type: 2}
   isCanonical: 0
   canonical: 

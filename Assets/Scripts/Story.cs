@@ -11,6 +11,7 @@ public class Story : ScriptableObject
 [Serializable]
 public class ListConver
 {
+    public string nameStory;
     public string nameList;
     public List<Conversation> conversations;
 }

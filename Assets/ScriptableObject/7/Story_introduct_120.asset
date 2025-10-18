@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_120
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "\u0110inh \u0110i\u1EC1n"
+    Lines:
+    - "Cu\u1ED1i n\u0103m 965, \u0110inh Ho\xE0n v\u1EC1 B\u1ED1 H\u1EA3i, ch\xEDnh
+      th\u1EE9c tr\u1EDF th\xE0nh t\u01B0\u1EDBng d\u01B0\u1EDBi tr\u01B0\u1EDBng
+      Tr\u1EA7n L\xE3m."
+    - "N\u0103m 966, theo l\u1EC7nh Tr\u1EA7n L\xE3m, \u0110inh Ho\xE0n c\u1EA7m
+      qu\xE2n \u0111\xE1nh phe ti\u1EBFm quy\u1EC1n L\xE3 X\u1EED B\xECnh, chi\u1EBFm
+      l\u1EA1i C\u1ED5 Loa.L\u1EA5y s\u1EED c\u1EE7a 1 to\xE0n qu\xE2n nh\u1ECF,
+      d\u1EB9p \u0111\u01B0\u1EE3c 1 x\u1EE9 qu\xE2n. Th\u1EAFng l\u1EE3i n\xE0y
+      khi\u1EBFn uy t\xEDn c\u1EE7a \u0110inh Ho\xE0n v\u01B0\u1EE3t tr\u1ED9i trong
+      qu\xE2n B\u1ED1 H\u1EA3i."
+    - "Cu\u1ED1i n\u0103m 966, Tr\u1EA7n L\xE3m tri\u1EC7u \u0110inh Ho\xE0n v\xE0o
+      doanh, n\xF3i r\xF5 \xFD \u0111\u1ECBnh: \u201CTa \u0111\xE3 gi\xE0, kh\xF4ng
+      con trai. Ta nh\u1EADn ng\u01B0\u01A1i l\xE0m con.\u201D \u0110inh Ho\xE0n
+      b\xE1i nh\u1EADn. T\u1EEB \u0111\xE2y \xF4ng l\xE0 con nu\xF4i v\xE0 ng\u01B0\u1EDDi
+      k\u1EBF th\u1EEBa \u0111\u01B0\u1EE3c ch\u1EC9 \u0111\u1ECBnh c\u1EE7a Tr\u1EA7n
+      L\xE3m."
+    - "Sau khi nh\u1EADn v\u1EC1 d\u01B0\u1EDBi th\xE2n ph\u1EADn con nu\xF4i c\u1EE7a
+      Tr\u1EA7n L\xE3m, v\u1EDBi kh\xED th\u1EBF ng\xF9n ng\u1EE5t c\u1EE7a tr\u1EADn
+      chi\u1EBFn d\u1EB9p lo\u1EA1n qu\xE2n L\xE3 X\u1EE9 B\xECnh, \u0110inh Ho\xE0n
+      quy\u1EBFt \u0111inh \u0111\u01B0a ra quy\u1EBFt \u0111inh: \"Giao Ch\xE2u
+      \u0111\xE3 lo\u1EA1n qu\xE1 l\xE2u. D\xE2n kh\xF4ng c\xF3 ch\u1EE7, n\u01B0\u1EDBc
+      kh\xF4ng c\xF3 vua. Ta s\u1EBD th\u1ED1ng nh\u1EA5t thi\xEAn h\u1EA1, l\u1EADp
+      n\xEAn m\u1ED9t tri\u1EC1u \u0111\u1EA1i m\u1EDBi!\""
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 0}
+  isCanonical: 1
+  canonical: "S\u1EED ch\xE9p \u0110inh B\u1ED9 L\u0129nh ra n\u01B0\u01A1ng Tr\u1EA7n
+    Minh C\xF4ng \u1EDF B\u1ED1 H\u1EA3i Kh\u1EA9u; n\u0103m 966 theo l\u1EC7nh \xF4ng
+    \u0111\xE1nh L\xE3 X\u1EED B\xECnh, chi\u1EBFm l\u1EA1i C\u1ED5 Loa, thanh th\u1EBF
+    vang d\u1ED9i. T\u1EEB \u0111\xF3, Tr\u1EA7n L\xE3m nh\u1EADn l\xE0m con nu\xF4i
+    v\xE0 giao quy\u1EC1n ch\u1EC9 huy; \u0111\u1EBFn 967 Tr\u1EA7n m\u1EA5t, \u0110inh
+    k\u1EBF th\u1EEBa binh l\u1EF1c. Chi ti\u1EBFt \u201Cgiao chi\u1EBFn \u1EDF B\u1ED1
+    H\u1EA3i\u201D hay \u201Cqu\xE2n s\u01B0, v\xE2y r\u1ED3i tho\xE1t\u201D ch\u1EC9
+    l\xE0 truy\u1EC1n thuy\u1EBFt sau n\xE0y, kh\xF4ng c\xF3 th\xF4ng tin r\xF5 r\xE0ng
+    trong ch\xEDnh s\u1EED."

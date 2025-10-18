@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_87
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "Tr\u1EA7n L\xE3m"
+    Lines:
+    - "Sau tr\u1EADn chi\u1EBFn s\xF4ng B\u1ED1 H\u1EA3i, \u0110inh Ho\xE0n r\xFAt
+      v\u1EC1 n\xFAi r\u1EEBng, chu\u1EA9n b\u1ECB t\xE1i t\u1EADp h\u1EE3p qu\xE2n
+      l\u1EF1c. Nh\u01B0ng m\u1ED9t tin b\u1EA5t ng\u1EDD \u0111\u1EBFn..."
+    - "M\u1ED9t binh s\u0129 ch\u1EA1y v\xE0o:"
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: 58f017d3a47993b49921b665c226954b, type: 2}
+  isCanonical: 0
+  canonical: 

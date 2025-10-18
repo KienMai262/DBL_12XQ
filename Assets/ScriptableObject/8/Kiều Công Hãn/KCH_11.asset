@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: KCH_11
+  m_EditorClassIdentifier: 
+  type: 0
+  description: 
+  sentences:
+    nameNPC: "T\u01B0\u1EDBng ph\xF3 Ki\u1EC1u"
+    Lines:
+    - "(Th\u1EA5p gi\u1ECDng sau l\u01B0ng H\xE3n) Ng\u1EF1a d\u01B0\u1EDBi g\xF2
+      s\u1EB5n. Ch\u1EC9 c\u1EA7n h\u1ECD d\xE0n h\xE0ng tr\xEAn b\xECnh nguy\xEAn,
+      ta \xE9p xu\u1ED1ng su\u1ED1i l\xE0 v\u1EE1."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  triggersBattleResolution: 0
+  nextConversation: {fileID: 11400000, guid: caec889ca1081e04088a83d427f5da6b, type: 2}
+  isCanonical: 0
+  canonical: 

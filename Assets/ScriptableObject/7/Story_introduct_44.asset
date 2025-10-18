@@ -15,7 +15,7 @@ MonoBehaviour:
   type: 0
   description: 
   sentences:
-    nameNPC: " L\xFD Kh\xE1nh"
+    nameNPC: "Nguy\u1EC5n B\u1EB7c"
     Lines:
     - "(Ch\u1EA1y t\u1EDBi, \u01B0\u1EDBt \u0111\u1EABm m\u01B0a) Ch\xFAa c\xF4ng!
       \u0110\xF3 l\xE0 qu\xE2n Tr\u1EA7n L\xE3m! Ch\xFAng \u0111\xE3 ch\u1EB7n \u0111\u01B0\u1EDDng
@@ -23,6 +23,7 @@ MonoBehaviour:
     images:
     - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
   choices: []
-  nextConversation: {fileID: 0}
+  triggersBattleResolution: 0
+  nextConversation: {fileID: 11400000, guid: fa856d666d54a1c4c90545a99deb3eda, type: 2}
   isCanonical: 0
   canonical: 

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_69
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "Binh s\u0129"
+    Lines:
+    - "M\u1ECDi ng\u01B0\u1EDDi \u0111ang chen ch\xFAc tr\xEAn c\u1EA7u b\u1EAFt
+      \u0111\u1EA7u ch\u1EA1y lung tung. M\u1ED9t s\u1ED1 ng\u01B0\u1EDDi b\u1ECB
+      \u0111\u1EA9y, ng\xE3 xu\u1ED1ng m\u1EB7t c\u1EA7u, b\u1ECB gi\u1EABm l\xEAn.
+      Ti\u1EBFng k\xEAu la th\u1EA3m thi\u1EBFt."
+    - "\xC2m thanh l\xFAc n\xE0y nh\u01B0 ch\u1EADm l\u1EA1i. Ti\u1EBFng g\u1ED7
+      ken k\xE9t vang l\xEAn nh\u01B0 \xE2m thanh c\u1EE7a c\xE1i ch\u1EBFt \u0111ang
+      t\u1EDBi g\u1EA7n."
+    - "R\u1EA6MMMMM!!!\nPh\u1EA7n gi\u1EEFa c\u1EA7u g\u1ED7 g\xE3y \u0111\xF4i.
+      H\xE0ng ch\u1EE5c ng\u01B0\u1EDDi r\u01A1i \xE0o xu\u1ED1ng d\xF2ng n\u01B0\u1EDBc
+      cu\u1ED3n cu\u1ED9n b\xEAn d\u01B0\u1EDBi. Ti\u1EBFng k\xEAu la b\u1ECB nu\u1ED1t
+      ch\u1EEDng b\u1EDFi ti\u1EBFng s\xF3ng n\u01B0\u1EDBc.\nC\u1EA7u chia l\xE0m
+      hai \u0111o\u1EA1n. \u0110o\u1EA1n b\xEAn n\xE0y (b\u1EDD nam) v\u1EABn c\xF2n,
+      nh\u01B0ng lay l\u1EAFt, lung lay. \u0110o\u1EA1n b\xEAn kia (b\u1EDD b\u1EAFc)
+      s\u1EADp ho\xE0n to\xE0n."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: e260d98f13826bb48b9c9627490433f6, type: 2}
+  isCanonical: 0
+  canonical: 

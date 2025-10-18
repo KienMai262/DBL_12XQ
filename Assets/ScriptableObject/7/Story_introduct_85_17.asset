@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: Story_introduct_85_17
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: Ta
+    Lines:
+    - "Qu\xE2n \u0110inh v\u1EADt v\xE3 r\xFAt lui. Nhi\u1EC1u ng\u01B0\u1EDDi b\u1ECB
+      th\u01B0\u01A1ng n\u1EB7ng, nhi\u1EC1u ng\u01B0\u1EDDi ch\u1EBFt \u0111u\u1ED1i."
+    - "Trong khj qu\xE2n \u0110inh \u0111ang tho\xE1t v\u1EC1 b\u1EDD, Tr\u1EA7n
+      L\xE3m t\u1EEB thuy\u1EC1n l\u1EDBn nh\xECn xu\u1ED1ng."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  nextConversation: {fileID: 11400000, guid: aecf0defc5c3af94098976b1c24c0b15, type: 2}
+  isCanonical: 0
+  canonical: 

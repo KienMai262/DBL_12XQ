@@ -35,23 +35,64 @@ public class Dialog : MonoBehaviour
     private DialogType dialogType;
     private bool hasShownEndOfChapterUI = false;
 
+    // HÀM QUAN TRỌNG: XỬ LÝ KHI HỘI THOẠI KẾT THÚC
     private void EndCurrentConversation()
     {
+        // Ưu tiên 1: Nếu có lựa chọn, hiển thị chúng
         if (conver.choices != null && conver.choices.Count > 0)
         {
             isShowingChoice = true;
             ShowChoice();
+            return; // Dừng lại ở đây
         }
+
+        // Áp dụng phần thưởng/phạt của hội thoại vừa kết thúc (NẾU CÓ)
+        if (conver.onCompletionParameterChange != null)
+        {
+            PlayerManager.instance.UpdateParameter(conver.onCompletionParameterChange);
+        }
+
+        // Ưu tiên 2: Nếu là điểm kích hoạt trận đánh
+        if (conver.triggersBattleResolution)
+        {
+            GameManager.instance.ResolveBattle();
+        }
+        // Ưu tiên 3: Nếu có hội thoại tiếp theo
         else if (conver.nextConversation != null)
         {
             GameManager.instance.GoToConversation(conver.nextConversation);
         }
+        // Cuối cùng: Nếu không còn gì cả (kết thúc nhánh/chương)
         else
         {
-            ShowEndOfChapterUI();
+            if (GameManager.instance.isWarlordChapterActive)
+            {
+                GameManager.instance.EnterBattleSelection();
+            }
+            else
+            {
+                ShowEndOfChapterUI();
+            }
         }
     }
-    
+
+    public void ForceCloseDialog()
+    {
+        // Dừng tất cả các Coroutine đang chạy trên component này 
+        // (quan trọng nhất là dừng hiệu ứng TypeDialog)
+        StopAllCoroutines();
+
+        // Ẩn tất cả các UI liên quan đến hội thoại
+        if (dialogBox != null) dialogBox.SetActive(false);
+        if (narratorBox != null) narratorBox.SetActive(false);
+        if (choiceContainer != null) choiceContainer.gameObject.SetActive(false);
+
+        // Reset lại các cờ trạng thái nội bộ
+        isTyping = false;
+        isShowingChoice = false;
+        OnCloseDialog?.Invoke(); // Gửi sự kiện để các hệ thống khác (nếu có) biết
+    }
+
     public void ShowChoice()
     {
         choiceContainer.gameObject.SetActive(true);
@@ -60,31 +101,77 @@ public class Dialog : MonoBehaviour
         foreach (var branch in conver.choices)
         {
             Choice choiceInstance = Instantiate(choicePrefab, choiceContainer);
-            Conversation destination = branch.nextConversation;
-            Parameter param = branch.parameterChange;
-            choiceInstance.SetChoice(branch.choiceText, 0, param);
+
+            var currentBranch = branch;
+
+            choiceInstance.SetChoice(currentBranch.choiceText, 0, null);
 
             choiceInstance.button.onClick.AddListener(() =>
             {
-                if (param != null) PlayerManager.instance.UpdateParameter(param);
+                if (currentBranch.parameterChange != null)
+                {
+                    PlayerManager.instance.UpdateParameter(currentBranch.parameterChange);
+                }
 
                 choiceContainer.gameObject.SetActive(false);
                 foreach (Transform child in choiceContainer) Destroy(child.gameObject);
                 isShowingChoice = false;
 
+                Conversation destination = null;
+
+                // 3. KIỂM TRA ĐIỀU KIỆN VÀ QUYẾT ĐỊNH KỊCH BẢN
+                // Nếu có yêu cầu chỉ số (requiredStats)
+                if (currentBranch.failureConversation != null)
+                {
+                    if (currentBranch.requiredStats != null)
+                    {
+                        // Gọi PlayerManager để kiểm tra xem người chơi có đủ chỉ số không
+                        bool success = PlayerManager.instance.CheckACParameter(currentBranch.requiredStats);
+
+                        if (success)
+                        {
+                            // Nếu thành công, đi đến kịch bản successConversation
+                            destination = currentBranch.successConversation;
+                        }
+                        else
+                        {
+                            // Nếu thất bại, đi đến kịch bản failureConversation
+                            destination = currentBranch.failureConversation;
+                        }
+                    }
+                    else
+                    {
+                        destination = currentBranch.successConversation;
+                    }
+                }
+                else
+                {
+                    destination = currentBranch.successConversation;
+                }
+
+                // 4. Chuyển đến hội thoại tiếp theo
                 if (destination != null)
                 {
                     GameManager.instance.GoToConversation(destination);
                 }
-                else
+                else // Nếu không có hội thoại nào được gán (kết thúc nhánh)
                 {
-                    ShowEndOfChapterUI();
+                    // Quay về bản đồ chiến thuật
+                    if (GameManager.instance.isWarlordChapterActive)
+                    {
+                        GameManager.instance.EnterBattleSelection();
+                    }
+                    else // Hoặc kết thúc chương như bình thường
+                    {
+                        ShowEndOfChapterUI();
+                    }
                 }
             });
         }
     }
-    
-    private void ShowEndOfChapterUI()
+
+    #region Unchanged Code
+    public void ShowEndOfChapterUI()
     {
         if (hasShownEndOfChapterUI) return;
         hasShownEndOfChapterUI = true;
@@ -101,7 +188,7 @@ public class Dialog : MonoBehaviour
             UIBrain.instance.BtnCanonical.gameObject.SetActive(false);
             UIBrain.instance.BtnNextChapter.gameObject.SetActive(false);
             GameManager.instance.status = GameManager.GameStatus.NONE;
-            
+
             GameManager.instance.GoToNextChapter();
         });
 
@@ -118,8 +205,6 @@ public class Dialog : MonoBehaviour
         }
     }
 
-
-    #region Unchanged Code
     public IEnumerator ShowDialogChat(Conversation conv, string nameNPC)
     {
         yield return new WaitForEndOfFrame();
@@ -144,7 +229,7 @@ public class Dialog : MonoBehaviour
         ResetDialogState();
         StartCoroutine(TypeDialogNarrator(conver.sentences.Lines[0], 0));
     }
-    
+
     private void ResetDialogState()
     {
         currentLine = 0;
@@ -158,7 +243,7 @@ public class Dialog : MonoBehaviour
     {
         if (isTyping || isShowingChoice || GameManager.instance.status != GameManager.GameStatus.NONE) return;
         if (Input.GetMouseButtonDown(0) && EventSystem.current.IsPointerOverGameObject()) return;
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !GameManager.instance.isPause)
         {
             ++currentLine;
             if (currentLine < conver.sentences.Lines.Count)
@@ -174,15 +259,7 @@ public class Dialog : MonoBehaviour
             }
         }
     }
-    
-    private void CloseDialogAndContinue()
-    {
-        dialogBox.SetActive(false);
-        narratorBox.SetActive(false);
-        isShowingChoice = false;
-        OnCloseDialog?.Invoke();
-    }
-    
+
     public IEnumerator TypeDialogChat(string lines, int index)
     {
         TransImage(conver.sentences.images[index]);
@@ -208,7 +285,7 @@ public class Dialog : MonoBehaviour
             narratorText.ForceMeshUpdate();
             if (narratorText.textInfo.lineCount > maxLines)
             {
-                TMP_LineInfo firstLine = narratorText.textInfo.lineInfo[0];
+                var firstLine = narratorText.textInfo.lineInfo[0];
                 int firstLineEndIndex = firstLine.lastCharacterIndex + 1;
                 currentTextToShow = currentTextToShow.Substring(firstLineEndIndex);
                 narratorText.text = currentTextToShow;
@@ -222,10 +299,6 @@ public class Dialog : MonoBehaviour
         if (sprite == null) return;
         if (isAnim) { /*Chuyển ảnh có hiệu ứng*/ }
         else { imageBg.sprite = sprite; }
-    }
-    public void NextChapter()
-    {
-        GameManager.instance.GoToNextChapter();
     }
     #endregion
 }

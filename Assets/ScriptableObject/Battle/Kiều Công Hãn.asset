@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf696664412b69e49a648bbbded10f4c, type: 3}
+  m_Name: "Ki\u1EC1u C\xF4ng H\xE3n"
+  m_EditorClassIdentifier: 
+  warlordName: "Ki\u1EC1u C\xF4ng H\xE3n"
+  description: 
+  portrait: {fileID: 0}
+  status: 0
+  stats:
+    UT: 6
+    CD: 4
+    LD: 7
+    SK: 6
+    ML: 5
+    NG: 4
+    TX: 5
+    QL: 600
+    TB: 3
+    V: 30
+    L: 120
+  prerequisites: []
+  battleStartConversation: {fileID: 0}
+  victoryConversation: {fileID: 0}
+  defeatConversation: {fileID: 0}

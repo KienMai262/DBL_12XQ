@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: KCH_15_L_07
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "L\xEDnh tr\u1EBB"
+    Lines:
+    - "Lao xuy\xEAn khi\xEAn, \u0111\xE8 nghi\u1EBFn ng\u1EF1c. M\xE1u \u1EA5m tr\xE0o.
+      Ti\u1EBFng k\xE8n \u201Ckh\xF3a h\u1EADu\u201D b\u1ECB ch\xE9m \u0111\u1EE9t
+      gi\u1EEFa ch\u1EEBng. G\xF3c nh\xECn nghi\xEAng \u0111\u1ED5. C\u1EDD r\u01A1i,
+      b\xF9n \u0111\u1ECF loang."
+    - "\u0110\xE3 qu\xE1 v\u1ED9i vang, qu\xE2n l\u1EF1c c\xF2n thi\u1EBFu, s\u1EF1c
+      ng\u01B0\u1EDDi c\xF2n ch\u01B0a \u0111\u1EE7."
+    - "G\xF2 m\u1EA5t. Ng\u01B0\u1EDDi m\u1EA5t. \xDD ch\xED m\u1EA5t."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  triggersBattleResolution: 0
+  onCompletionParameterChange:
+    UT: 6
+    CD: 4
+    LD: 7
+    SK: 6
+    ML: 5
+    NG: 4
+    TX: 5
+    QL: 600
+    TB: 3
+    V: 30
+    L: 120
+  nextConversation: {fileID: 0}
+  isCanonical: 0
+  canonical: 

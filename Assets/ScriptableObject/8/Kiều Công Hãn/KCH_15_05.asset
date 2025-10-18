@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7e1a551b864e4d94b235e1b05b001, type: 3}
+  m_Name: KCH_15_05
+  m_EditorClassIdentifier: 
+  type: 1
+  description: 
+  sentences:
+    nameNPC: "T\xF9y t\u01B0\u1EDBng \u0110inh"
+    Lines:
+    - "Va\u2014l\xF9i\u2014\u0111\xE2m l\u1EB7p d\u1ED3n d\u1EADp. K\u1EF5 Ki\u1EC1u
+      xoay ngang s\u01B0\u1EDDn qu\xE9t khi\xEAn, m\u0169i th\u1EE9 hai \u1EADp l\xEAn
+      n\u1ED1i \u0111\xE0. Nhi\u1EC1u binh \u0110inh ng\xE3 qu\u1EF5 nh\u01B0ng n\u1EA5c
+      \u0111\u1ED9i h\xECnh v\u1EABn kh\xF3a ch\u1EB7t. M\xF9i s\u1EAFt, b\xF9n v\xE0
+      m\u1ED3 h\xF4i ng\u1EF1a \u0111\u1EB7c qu\xE1nh."
+    images:
+    - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
+  choices: []
+  triggersBattleResolution: 0
+  nextConversation: {fileID: 11400000, guid: ae070a64846f737468e4bc09324fd6a8, type: 2}
+  isCanonical: 0
+  canonical: 

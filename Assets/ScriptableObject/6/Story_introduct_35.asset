@@ -24,7 +24,20 @@ MonoBehaviour:
     - {fileID: 21300000, guid: ba370862297078040bbce71838be441a, type: 3}
   choices:
   - choiceText: "Gi\u1EEF v\u1EEFng ch\xED l\u1EDBn"
-    nextConversation: {fileID: 11400000, guid: b1f56252cd1d69349b92a362b0dd65b2, type: 2}
+    requiredStats:
+      UT: 6
+      CD: 4
+      LD: 7
+      SK: 6
+      ML: 5
+      NG: 4
+      TX: 5
+      QL: 600
+      TB: 3
+      V: 30
+      L: 120
+    successConversation: {fileID: 11400000, guid: b1f56252cd1d69349b92a362b0dd65b2, type: 2}
+    failureConversation: {fileID: 0}
     parameterChange:
       UT: 2
       CD: 0
@@ -38,7 +51,20 @@ MonoBehaviour:
       V: 0
       L: 0
   - choiceText: "M\u1EC1m n\u1EAFn r\u1EAFn bu\xF4ng"
-    nextConversation: {fileID: 11400000, guid: 2e7f9b4ba496c7e45962c6846b82746f, type: 2}
+    requiredStats:
+      UT: 6
+      CD: 4
+      LD: 7
+      SK: 6
+      ML: 5
+      NG: 4
+      TX: 5
+      QL: 600
+      TB: 3
+      V: 30
+      L: 120
+    successConversation: {fileID: 11400000, guid: 2e7f9b4ba496c7e45962c6846b82746f, type: 2}
+    failureConversation: {fileID: 0}
     parameterChange:
       UT: -2
       CD: 0
@@ -52,7 +78,20 @@ MonoBehaviour:
       V: -80
       L: -30
   - choiceText: "Gi\u1EA3 h\xE0ng, b\u1EA5t ng\u1EDD t\u1EADp k\xEDch"
-    nextConversation: {fileID: 11400000, guid: 555353e4544f10a48b7351fdef20d310, type: 2}
+    requiredStats:
+      UT: 6
+      CD: 4
+      LD: 7
+      SK: 6
+      ML: 5
+      NG: 4
+      TX: 5
+      QL: 600
+      TB: 3
+      V: 30
+      L: 120
+    successConversation: {fileID: 11400000, guid: 555353e4544f10a48b7351fdef20d310, type: 2}
+    failureConversation: {fileID: 0}
     parameterChange:
       UT: 0
       CD: 0
@@ -61,10 +100,24 @@ MonoBehaviour:
       ML: 0
       NG: 0
       TX: 0
-      QL: -400
+      QL: -300
       TB: 1
       V: 0
       L: 0
+  triggersBattleResolution: 0
+  isCompleteParenthetical: 0
+  onCompletionParameterChange:
+    UT: 6
+    CD: 4
+    LD: 7
+    SK: 6
+    ML: 5
+    NG: 4
+    TX: 5
+    QL: 600
+    TB: 3
+    V: 30
+    L: 120
   nextConversation: {fileID: 0}
   isCanonical: 0
   canonical: 
